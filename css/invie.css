@@ -1,5 +1,15 @@
 /* con clases */
 
+/*Universal*/
+*{
+	/*width: ;
+	height: ;*/
+/*	padding: 10px 13px 5px 15px;*/
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid red;	
+}
+
 /*Etiqueta*/
 body{	
 	font-family: 'Allerta', sans-serif;
@@ -107,19 +117,32 @@ button{
 	position: relative;
 }
 
-.footer {
+/*.footer{
   background: #273b47;
 }
 
-.contacto img {
+.contacto{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+}
+
+.contacto img{
   display: block;
 }
 
-.contacto strong {
+.contacto strong{
   display: block;
 }
 
-.contacto a {
+.contacto a{
   color: white;
   text-decoration: none;
+  margin: 10px 10px 10px;
 }
+
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+}*/
+
