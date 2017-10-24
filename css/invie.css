@@ -1,14 +1,14 @@
 /* con clases */
 
 /*Universal*/
-*{
-	/*width: ;
-	height: ;*/
-/*	padding: 10px 13px 5px 15px;*/
+/**{
+	width: tamaño;
+	height: tamaño;
+	padding: 10px 13px 5px 15px;
 	padding: 10px;
 	margin: 10px;
 	border: 2px solid red;	
-}
+}*/
 
 /*Etiqueta*/
 body{	
@@ -44,6 +44,8 @@ button{
 
 .guitarras{
 	color: #1F313C;
+	width: 800px;
+	margin: auto;
 }
 
 .guitarras h2{
@@ -77,6 +79,7 @@ button{
 	display: inline-block;
 }
 
+/*Clase para heredar caracteristicas en todo el contenido*/
 .contenedor{
 	width: 800px;
 	margin: auto;
@@ -86,15 +89,17 @@ button{
 	margin: 10px;
 	padding: 10px;
 	border: 1px solid #1F313C;
-	border-radius: 8px;
+	border-radius: 8px;	
+	/*overflow: hidden;*/
 }
 
 .guitarra ol{
 	padding: 0;
 }
 
+
 .derecha{
-	float: right;
+	float: right; /*elementos floten en la pagina*/
 	position: relative;
 	top: -127px;
 }
@@ -106,7 +111,7 @@ button{
 }
 
 .contenedor-guitarra-a{
-	padding-left: 20px;
+	padding-left: 20px; 
 }
 
 .contenedor-guitarra-b{
@@ -114,17 +119,16 @@ button{
 }
 
 .header{
-	position: relative;
+	position: relative; /*Padre relativo*/
 }
 
-/*.footer{
+/*.guitarra img{
+	float: left;
+}*/
+
+
+.footer{
   background: #273b47;
-}
-
-.contacto{
-	display: flex;
-	width: 300px;
-	flex-wrap: wrap;
 }
 
 .contacto img{
@@ -138,8 +142,21 @@ button{
 .contacto a{
   color: white;
   text-decoration: none;
-  margin: 10px 10px 10px;
+  /*margin: 10px 10px 10px;*/
 }
+
+/*
+.contacto{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+}
+
+
+
+
+
+
 
 .footer .contenedor{
 	display: flex;
